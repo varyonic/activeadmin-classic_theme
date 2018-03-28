@@ -16,7 +16,12 @@ And then execute:
 
 ## Usage
 
-Add this after the activeadmin gem to obtain the original theme for Active Admin 1.x.
+active_admin.css.scss should contain:
+
+```
+@import "active_admin/classic/mixins/all";
+@import "active_admin/classic/base";
+```
 
 ## Development
 
